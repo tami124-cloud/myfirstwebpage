@@ -1,0 +1,31 @@
+body {
+     background-color: #ffc0cb; /* light pink */
+	 font-family: Arial, Orator Std;
+	 text-align: center;
+	 margin-top: 50px;
+}
+
+button {
+	font-size: 20px;
+	padding: 10px 20px;
+	margin: 10px;
+	cursor: pointer;
+	border-radius: 10px;
+	border: none;
+	transition: 0.3s;
+}
+
+button:hover {
+	background-color: #ff1493; /* Darker pink on hover*/
+}
+
+#yesBtn {
+	background-color: #f6a7a7
+	color: white;
+}
+
+#noBtn {
+	background-color: #a5cee6
+	color: white;
+	position: absolute;
+}
